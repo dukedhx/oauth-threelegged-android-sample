@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10px"
+>
+    <TextView android:id="@+id/profileRowKey"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:textStyle="bold"
+              android:paddingBottom="2px"
+              android:textColor="#00809D"
+    />
+
+    <TextView android:id="@+id/profileRowValue"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textSize="8dp"
+              android:textStyle="italic"
+              android:paddingBottom="2px"
+    />
+</LinearLayout>

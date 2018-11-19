@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Forge OAuth3Leg</string>
+
+    <string name="FORGE_CLIENT_ID">YOUR_APP_CLIENT_ID</string>
+    <string name="FORGE_CLIENT_SECRET">YOUR_APP_SECRET</string>
+    <string name="FORGE_CALLBACK_SCHEME">YOUR_ANDROID_APP_SCHEME</string>
+    <string name="FORGE_CALLBACK_HOST">YOUR_ANDROID_APP_DOMAIN</string>
+    <string name="FORGE_SCOPE">data:read</string>
+
+    <string name="FORGE_TOKEN_URL">https://developer.api.autodesk.com/authentication/v1/gettoken</string>
+    <string name="FORGE_PROFILE_URL">https://developer.api.autodesk.com/userprofile/v1/users/@me</string>
+    <string name="FORGE_AUTHORIZATION_URL">https://developer.api.autodesk.com/authentication/v1/authorize</string>
+</resources>
